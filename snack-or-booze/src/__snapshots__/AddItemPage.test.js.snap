@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot test 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <div>
+      <nav
+        class="navbar navbar-expand-md"
+      >
+        <a
+          class="navbar-brand"
+          href="/"
+        >
+          Snack or Booze
+        </a>
+        <ul
+          class="ml-auto navbar-nav"
+        >
+          <li
+            class="nav-item"
+          >
+            <a
+              aria-current="page"
+              class="active"
+              href="/add"
+            >
+              Add
+            </a>
+            <a
+              href="/snacks"
+            >
+              Snacks
+            </a>
+            <a
+              href="/drinks"
+            >
+              Drinks
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <main>
+      <p>
+        Loading …
+      </p>
+    </main>
+  </div>
+</DocumentFragment>
+`;
