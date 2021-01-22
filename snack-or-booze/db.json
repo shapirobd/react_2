@@ -27,6 +27,13 @@
       "description": "Crisp!",
       "recipe": "Open can.",
       "serve": "Immediately."
+    },
+    {
+      "id": "mojito",
+      "name": "Mojito",
+      "description": "Minty delicious drink",
+      "recipe": "2 shots white rum, 5 mint leaves, 1 shot simple syrup, 4 shots club soda",
+      "serve": "Serve cold in a glass with ice"
     }
   ],
   "snacks": [
@@ -50,6 +57,13 @@
       "description": "Tart and delicious.",
       "recipe": "Mix arugula, toasted walnuts, and thinly-sliced Parmesan cheese. Dress with lemon and olive oil.",
       "serve": "Place on tiny, precious little plates."
+    },
+    {
+      "id": "potato",
+      "name": "Potato",
+      "description": "This is a potato",
+      "recipe": "Just the potato",
+      "serve": "Buy potato and eat it"
     }
   ]
 }

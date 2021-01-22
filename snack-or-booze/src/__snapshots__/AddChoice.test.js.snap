@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot test 1`] = `
+<DocumentFragment>
+  <section
+    class="col-md-4"
+  >
+    <div
+      class="card"
+    >
+      <div
+        class="card-body"
+      >
+        <h5
+          class="font-weight-bold text-center card-title"
+        >
+          Would you like to add a snack or a drink?
+        </h5>
+        <p
+          class="card-text"
+        >
+          <a
+            href="/add/snack"
+          >
+            Snack
+          </a>
+          <a
+            href="/add/drink"
+          >
+            Drink
+          </a>
+        </p>
+      </div>
+    </div>
+  </section>
+</DocumentFragment>
+`;

@@ -10,12 +10,41 @@ const BASE_API_URL = "http://localhost:5000";
 */
 
 class SnackOrBoozeApi {
+	static async getSnacks() {
+		const result = await axios.get(`${BASE_API_URL}/snacks`);
+		return result.data;
+	}
 
-  static async getSnacks() {
-    const result = await axios.get(`${BASE_API_URL}/snacks`);
-    return result.data;
-  }
+	static async getDrinks() {
+		const result = await axios.get(`${BASE_API_URL}/drinks`);
+		return result.data;
+	}
 
+	static async postSnack(formData) {
+		const lowerName = formData.name.toLowerCase();
+		let id = "";
+		for (let char of lowerName) {
+			char === " " ? (id += "-") : (char = id += char);
+		}
+		const result = await axios.post(`${BASE_API_URL}/snacks`, {
+			id,
+			...formData,
+		});
+		return result.data;
+	}
+
+	static async postDrink(formData) {
+		const lowerName = formData.name.toLowerCase();
+		let id = "";
+		for (let char of lowerName) {
+			char === " " ? (id += "-") : (char = id += char);
+		}
+		const result = await axios.post(`${BASE_API_URL}/drinks`, {
+			id,
+			...formData,
+		});
+		return result.data;
+	}
 }
 
 export default SnackOrBoozeApi;
